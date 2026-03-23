@@ -1,8 +1,11 @@
 import React from 'react'
+import CoursesNavBar from './CoursesNavBar'
 
-const OnlineCourseEnrollment = () => {
+const AddOnlineCourseEnrollment = () => {
   return (
-    <div><div className="container">
+    <div>
+        <CoursesNavBar />
+        <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <div className="row g-3">
@@ -79,4 +82,4 @@ const OnlineCourseEnrollment = () => {
   )
 }
 
-export default OnlineCourseEnrollment
+export default AddOnlineCourseEnrollment
