@@ -11,7 +11,7 @@ const CoursesNavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/">AddOnlineCourse</a>
+        <a class="nav-link active" aria-current="page" href="/Add">AddOnlineCourse</a>
         <a class="nav-link" href="/search">Search Online Course</a>
         <a class="nav-link" href="/delete">Delete Online Course</a>
         <a class="nav-link" href="/ViewAll">View all online courses</a>
